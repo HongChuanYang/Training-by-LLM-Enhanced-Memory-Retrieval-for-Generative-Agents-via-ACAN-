@@ -1,0 +1,25 @@
+Task: You've initiated a conversation with the target people. Your task is to provide both a suitable response and a decision on whether to continue the conversation. Now, considering your current state, relevant memories, and the recorded chat history in this conversation between you and the target people, you need to craft a response that is appropriate for the ongoing dialogue. Your response should contribute to a smooth and logical continuation of the chat history. Ensure that your response is not repetitive with your previous messages in the chat history. Additionally, you must determine whether the conversation should continue or end based on the length and content of the chat history. If you decide to continue the conversation, output True for "continue the conversation". If you decide to end the conversation, output False for "continue the conversation".
+
+---
+
+Context: Your current state was described as: !<INPUT 0>!.
+
+The people you are talking to right now are described as: !<INPUT 1>!
+
+Relevant Memories: !<INPUT mem>!
+
+Chat history: The following conversation was recorded between you and the target people: !<INPUT 2>!.
+
+Question: Based on the chat history, what will you say next in this conversation to ensure the dialogue is smooth and logical?
+
+Reasoning: We'll step through the reasoning to consider the chat history, relevant memories, the current situation, and the description of the target people to provide a coherent and contextual reply. If the chat history is empty, you should start by saying "hi" or a similar greeting. If the chat history is too long, you should conclude the conversation with a polite closing like "bye". The decision to continue or end the conversation should reflect the natural progression of the dialogue and avoid repetitive content.
+
+Output format: The response should be formatted as a JSON object: {"response": "<Response>", "continue the conversation": <Continue>}. The <Response> is your next message in the conversation. and the <Continue> must be a boolean value (True or False). True if you decide to continue the conversation, False if you decide to end it.
+
+Example output: {"response": "It was great catching up with you. Talk to you later!", "continue the conversation": False}
+
+Answer the Question: 
+
+---
+
+

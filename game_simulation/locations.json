@@ -1,0 +1,97 @@
+{
+  "Village Square": {
+    "description": "The vibrant heart of the village where markets, public meetings, and festivals are held.",
+    "type": "community space",
+    "agents": ["Community"]
+  },
+  "Market": {
+    "description": "The central trading area for buying and selling goods, bustling with activity.",
+    "type": "workplace",
+    "agents": ["Community"]
+  },
+  "Playground": {
+    "description": "A lively spot equipped with swings and slides, loved by children for play and adventure.",
+    "type": "community space",
+    "agents": ["Community"]
+  },
+  "Village Hall": {
+    "description": "The administrative center where village meetings and decision-making occur.",
+    "type": "workplace",
+    "agents": ["Michael"]
+  },
+  "Fields": {
+    "description": "Expansive lands where crops are planted and harvested, tended by the farmer.",
+    "type": "workplace",
+    "agents": ["James"]
+  },
+  "Grocery Store": {
+    "description": "The main shop supplying essentials, managed by the grocer.",
+    "type": "workplace",
+    "agents": ["Emily"]
+  },
+  "Clinic": {
+    "description": "The healthcare center providing medical services and treatments.",
+    "type": "workplace",
+    "agents": ["Alice"]
+  },
+  "Kitchen": {
+    "description": "The bustling space where meals are prepared and culinary magic happens.",
+    "type": "workplace",
+    "agents": ["Sarah"]
+  },
+  "Forest": {
+    "description": "A dense woodland area where hunting and gathering activities take place.",
+    "type": "workplace",
+    "agents": ["Hunter"]
+  },
+  "Forge": {
+    "description": "The smithy where tools and weapons are forged and repaired.",
+    "type": "workplace",
+    "agents": ["Robert"]
+  },
+  "Woodshop": {
+    "description": "The workshop for crafting and maintaining wooden structures and furniture.",
+    "type": "workplace",
+    "agents": ["John"]
+  },
+  "James Home": {
+    "description": "James' cozy farmhouse nestled near the fields, offering tranquility and rustic charm.",
+    "type": "home",
+    "agents": ["James"]
+  },
+  "Emily Home": {
+    "description": "Emily's comfortable residence, conveniently located near her grocery store.",
+    "type": "home",
+    "agents": ["Emily"]
+  },
+  "Alice Home": {
+    "description": "Alice's peaceful, organized home close to the clinic, reflecting her dedication to health.",
+    "type": "home",
+    "agents": ["Alice"]
+  },
+  "Michael Home": {
+    "description": "Michael's stately house, symbolizing his role and leadership in the village.",
+    "type": "home",
+    "agents": ["Michael"]
+  },
+  "Sarah Home": {
+    "description": "Sarah's warm and inviting home, often filled with the aroma of delicious food.",
+    "type": "home",
+    "agents": ["Sarah"]
+  },
+  "Hunter Home": {
+    "description": "Hunter's secluded cabin near the forest, perfect for a solitary lifestyle.",
+    "type": "home",
+    "agents": ["Hunter"]
+  },
+  "Robert Home": {
+    "description": "Robert's sturdy and functional home, located near his forge.",
+    "type": "home",
+    "agents": ["Robert"]
+  },
+  "John Home": {
+    "description": "John's charming cottage, situated close to the woodshop for easy access.",
+    "type": "home",
+    "agents": ["John"]
+  }
+}

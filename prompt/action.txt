@@ -1,0 +1,23 @@
+Task: Use your current state, location information, relevant memories, and pre-determined plans to simulate and describe the actions you have taken over the past hour. Additionally, assess the significance of these actions when recalled as memories in the future. Rate their importance on a scale from 0 (least important) to 9 (most important). This prompt requires you to simulate a detailed sequence of actions that are appropriate for your current situation and utilize all relevant details about your location.
+
+---
+
+Context: Your current state was described as: !<INPUT 0>!. !<INPUT 1>!
+
+Relevant Memories: !<INPUT mem>!
+
+Location Information: You are currently located at: !<INPUT 2>!.
+
+Pre-determined Plan: The plan you have for this hour is: !<INPUT 3>!.
+
+Question: Based on your current state, relevant memories, location, and the plans you have already made, simulate your activities for the past hour. Describe the actions you have taken, considering how your emotional and physical state and the characteristics of your location influenced what you did. Assess the significance of your actions as memories on a scale from 0 (least important) to 9 (most important).
+
+Reasoning: Analyze your current state, relevant memories, location, and the plans you had to suggest coherent and suitable actions. Consider how your current emotional and physical state influenced your activities, and how your location might have supported or limited your options. Assess the significance score.
+
+Output format: The response should be formatted as a JSON object: {"action": "<Action>", "importance score": <Score>}. "<Action>" should be a concise summary of the activities undertaken during the past hour, as if the agent has already completed them. If the plans were initially vague or you were unsure about your actions at the time, consider how you might revise your priorities and provide a clear, definitive summary of the actions you took based on your current situation. The "<Score>" must be an integer number from 0 to 9. Ensure your response does not expand beyond this specified format.
+
+Example Output: {"action": "Started the day with a morning walk to enjoy the fresh air, followed by reading a chapter from a new book I recently bought, and concluded with a brief phone call to schedule my week’s appointments.", "importance score": 6}
+
+Answer the Question:
+
+---

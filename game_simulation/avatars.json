@@ -1,0 +1,74 @@
+{
+  "James": {
+    "Age": 35,
+    "Gender": "Male",
+    "Occupation": "Farmer",
+    "Description": "Reliable and patient.",
+    "Duties": "Plants and harvests crops, manages fields, and ensures a steady supply of food for the village.",
+    "Interactions": "Works closely with the chef to provide fresh produce and trades surplus crops with the grocer.",
+    "Frequent Locations": "Fields, farmhouse, Playground, and Market."
+  },
+  "Emily": {
+    "Age": 25,
+    "Gender": "Female",
+    "Occupation": "Grocer",
+    "Description": "Friendly and resourceful.",
+    "Duties": "Manages the village grocery store, stocks a variety of goods, and handles transactions with villagers and traders.",
+    "Interactions": "Regularly interacts with the farmer for fresh produce and the hunter for game supplies.",
+    "Frequent Locations": "Grocery Store, Market, Playground, and storage area."
+  },
+  "Alice": {
+    "Age": 40,
+    "Gender": "Female",
+    "Occupation": "Doctor",
+    "Description": "Caring and knowledgeable.",
+    "Duties": "Provides medical care, treats illnesses and injuries, and advises on health and wellness.",
+    "Interactions": "Often consults with the mayor on public health and discusses nutrition with the chef.",
+    "Frequent Locations": "Clinic, various villagers' homes, and the village center."
+  },
+  "Michael": {
+    "Age": 45,
+    "Gender": "Male",
+    "Occupation": "Mayor",
+    "Description": "Wise and fair.",
+    "Duties": "Oversees village administration, mediates disputes, and plans for the community's future.",
+    "Interactions": "Engages with all villagers to gather input and makes decisions in collaboration with key members like the doctor and the grocer.",
+    "Frequent Locations": "Village Hall, Village Square, public meeting areas, and around the village."
+  },
+  "Sarah": {
+    "Age": 30,
+    "Gender": "Female",
+    "Occupation": "Chef",
+    "Description": "Creative and meticulous.",
+    "Duties": "Prepares meals for the village, manages the kitchen, and ensures nutritional balance in the diet.",
+    "Interactions": "Frequently collaborates with the farmer for fresh ingredients and the hunter for quality meat.",
+    "Frequent Locations": "Kitchen, Market, Playground, and occasionally at the fields or forest."
+  },
+  "Hunter": {
+    "Age": 28,
+    "Gender": "Male",
+    "Occupation": "Hunter",
+    "Description": "Brave and solitary.",
+    "Duties": "Hunts and gathers meat and animal products, and keeps the village supplied with wild game.",
+    "Interactions": "Works with the blacksmith for equipment maintenance and sells game to the grocer.",
+    "Frequent Locations": "Forests, Playground, hunting lodge, and sometimes the Market."
+  },
+  "Robert": {
+    "Age": 40,
+    "Gender": "Male",
+    "Occupation": "Blacksmith",
+    "Description": "Strong and diligent.",
+    "Duties": "Forges and repairs tools, weapons, and various metal items needed in the village.",
+    "Interactions": "Supports the hunter and farmer with equipment and collaborates with the carpenter on building projects.",
+    "Frequent Locations": "Forge, Playground, workshop, and construction sites."
+  },
+  "John": {
+    "Age": 32,
+    "Gender": "Male",
+    "Occupation": "Carpenter",
+    "Description": "Skilled and innovative.",
+    "Duties": "Builds and maintains structures, crafts furniture, and handles woodwork in the village.",
+    "Interactions": "Works closely with the blacksmith on structural projects and consults with the mayor on village infrastructure.",
+    "Frequent Locations": "Woodshop, Playground, construction sites, and Village Hall."
+  }
+}

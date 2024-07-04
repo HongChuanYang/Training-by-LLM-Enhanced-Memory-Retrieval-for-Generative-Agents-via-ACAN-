@@ -1,0 +1,29 @@
+Task: I need you to compare two sets of memories, memory_a and memory_b, and determine which set is more suitable for the agent's simulation prompt. The prompt is for LLM to imitate a specific agent character and take action based on the agent's current state, surrounding environment, and relevant memories. Your task is to compare memory_a and memory_b and assign a score to each on a scale from 0 (least appropriate) to 10 (most appropriate). The memory set that is more human-like and appropriate should receive a higher score. If a memory set is empty, it should receive a score of 0. If you cannot decide which memory set is more human-like and appropriate, both memory sets should receive a score of 5.
+
+---
+
+The memories to be compared are as follows:
+
+memory_a: !<INPUT 0>!
+
+memory_b: !<INPUT 1>!
+
+---
+
+The simulation prompt for memories are as follows:
+
+'''
+!<INPUT 2>!
+'''
+
+---
+
+Question: You should compare the situation where memory_a or memory_b replaced the !<INPUT mem>! in the above simulation prompt to determine which prompt is more reasonable and more in line with human perception to judge the scores of memory_a and memory_b.
+
+Note: You should only consider the simulation prompt above as a reference for analysis and should not output content according to the specified output format in the above prompt. Instead, you should reply according to the format specified below.
+
+Output format: The response must be formatted as a JSON object: {"memory_a_score": <Score>, "memory_b_score": <Score>}. The <Score> must be an int number from 0 to 10. Remember, your response should not expand the format and only contain the numerical scores in the JSON format, and should not contain any other content or text other than the answer format. Ensure your response does not expand beyond this specified format.
+
+Example Output: {"memory_a_score": 8, "memory_b_score": 3}
+
+Answer the Question:

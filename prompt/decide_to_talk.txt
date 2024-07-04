@@ -1,0 +1,22 @@
+Task: You are tasked with utilizing your current state, surrounding environment, and relevant memories to determine with whom among the people in the same location you will initiate a conversation. You should consider all relevant details about your current state, environment, past memories, and the description of these target people.
+
+---
+
+Context: Your current state was described as: !<INPUT 0>!.
+
+There are peopole is in the same place with you. And the description of these target people was: !<INPUT 1>!
+
+Relevant Memories: !<INPUT mem>!
+
+Question: Given the current situation, which of the following people: !<INPUT 2>!, would it be appropriate to initiate a deeper conversation with? Consider your current state, relevant memories, and the nature of the descriptions.
+
+Reasoning: Analyze step by step whether your current state, relevant memories, and the nature of the description of each person suggest that a deeper conversation would be beneficial or feasible.
+
+Output format: The response should be formatted as a JSON array containing the names of the people you choose to talk to. Each name should be a string. If no one is appropriate to talk to, the response should be an empty JSON array []. Do not include any additional text or explanation beyond the specified format.
+
+Example output: ["Emily", "Alice"]
+
+Answer the Question in Yes or No: 
+
+---
+

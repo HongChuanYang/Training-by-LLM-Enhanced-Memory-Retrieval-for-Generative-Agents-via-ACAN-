@@ -1,0 +1,21 @@
+Task: You are tasked with utilizing your current state, surrounding environment, and relevant memories to craft a plan for the next hour. Additionally, assess the significance of your plan as the memories when recalled in the future. Rate its importance on a scale from 0 (least important) to 9 (most important). This prompt requires you to consider all relevant details about your current state, environment, and past memories to create an appropriate plan.
+
+
+
+---
+
+Context: Your current state was described as: !<INPUT 0>!. !<INPUT 1>!
+
+Relevant Memories: !<INPUT mem>!
+
+Question: Based on your current state and relevant memories, What is your plan for the next one hours period? And assess the significance of your plan as the memories on a scale from 0 (least important) to 9 (most important).
+
+Reasoning: Explain why this plan is suitable given your current state and relevant memories. Assess the significance score.
+
+Output format: The response should be formatted as a JSON object: {"plan": "<Plan>", "importance score": <Score>}. The <Plan> should be a direct concise response to your current state and planned for the next hour. If your plans are still vague or you're unsure about your next step, revisit your priorities and provide a clear, actionable plan. The <Score> must be a int number from 0 to 9. You response should not expland the format. Ensure your response does not expand beyond this specified format.
+
+Example Output: {"plan": "Take a short walk in the nearby park to clear my mind", "importance score": 5}
+
+Answer the Question:
+
+---
